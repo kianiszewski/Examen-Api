@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+.boxprincipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px; 
+    /* background-color: aliceblue; */
+    /* width: 600px; */
+}
+.boxprincipalinner{
+    background-color: aliceblue;
+    width: 400px;
+    height: 300px;
+    border-radius: 2%;
+}
+.widthclass {
+    width: 10px;
+}
+
+.boxsuperior, .boxinferior, .resultadointeractivo {
+    width: 100%; 
+    max-width: 400px; 
+    margin-bottom: 20px; 
+}
